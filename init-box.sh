@@ -20,8 +20,8 @@ cd $box
 
 prefix=`pwd`
 
-ln -s ../postgresql-9.1.3 sources
-cd sources;
+ln -s ../postgresql-9.1.3 src
+cd src;
 ./configure --prefix=$prefix --with-pgport=`echo "6555 + $1" | bc` && make clean && make world && make install-world
 
 if [ $? -eq 0 ]
