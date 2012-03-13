@@ -22,7 +22,7 @@ prefix=`pwd`
 
 ln -s ../postgresql-9.1.3 sources
 cd sources;
-./configure --prefix=$prefix --with-pgport=`echo "6555 + $1" | bc` && make clean && make && make install
+./configure --prefix=$prefix --with-pgport=`echo "6555 + $1" | bc` && make clean && make world && make install-world
 
 if [ $? -eq 0 ]
 then
