@@ -2,9 +2,9 @@
 
 if [ ! -f ./postgresql-9.1.3.tar.bz2 ]
 then
-	wget http://ftp.postgresql.org/pub/source/v9.1.3/postgresql-9.1.3.tar.bz2
-        tar xvjf postgresql-9.1.3.tar.bz2
-        ln -s postgresql-9.1.3 src
+    wget http://ftp.postgresql.org/pub/source/v9.1.3/postgresql-9.1.3.tar.bz2
+    tar xvjf postgresql-9.1.3.tar.bz2
+    ln -s postgresql-9.1.3 src
 fi
 
 if [ -d "box-$1" ]
