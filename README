@@ -1,0 +1,8 @@
+full text search links:
+* http://www.slideshare.net/billkarwin/full-text-search-in-postgresql
+* (12.2.2 is most important chapter) http://www.postgresql.org/docs/9.1/static/textsearch.html
+
+json support:
+* home made json support: http://blog.redfin.com/devblog/2012/03/json_in_postgres.html
+* as of 9.2 json should be native type
+
