@@ -6,3 +6,5 @@ json support:
 * home made json support: http://blog.redfin.com/devblog/2012/03/json_in_postgres.html
 * as of 9.2 json should be native type
 
+index not being used (aka stuck on 'where timestamp > timestamp'):
+* http://www.depesz.com/2010/09/09/why-is-my-index-not-being-used/
